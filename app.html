@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Principal</title>
+    <link rel="stylesheet" href="stylesapp.css">
+</head>
+<body>
+    <div id="app-screen" class="screen active full-screen">
+        <div class="header">
+            <span>Id: 12345678</span>
+            <span>Usuario: Huber Tique P</span>
+        </div>
+        <form>
+            <label for="ean-plu">Ean/Plu</label>
+            <input type="text" id="ean-plu">
+            <label for="description">Descripción</label>
+            <input type="text" id="description">
+            <label for="cost">Costo</label>
+            <input type="text" id="cost">
+        </form>
+        <h3>Total</h3>
+        <div class="purchase-details">
+            <h4>Detalle de su compra:</h4>
+            <input type="text" id="detalle-compra">
+        </div>
+        <div class="payment-info">
+            <div class="payment-options">
+                <h4>PAGO:</h4>
+                <img src="images/cash.png" alt="Cash" class="payment-icon">
+                <img src="images/card.png" alt="Card" class="payment-icon">
+                <img src="images/nequi.png" alt="Nequi" class="payment-icon">
+            </div>
+            <div class="invoice-options">
+                <h4>FACTURACIÓN:</h4>
+                <img src="images/invoice.png" alt="Invoice" class="payment-icon">
+            </div>
+        </div>
+        <div class="bottom-section">
+            <img src="images/logo.png" class="logo" alt="Logo">
+            <button id="exit-btn">Salir</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
